@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BC7BC252077C4E000D96C65 /* TinderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7BC242077C4E000D96C65 /* TinderImageView.swift */; };
 		2BDA6BA420764CBA00CADFEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA6BA320764CBA00CADFEB /* AppDelegate.swift */; };
 		2BDA6BA620764CBA00CADFEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA6BA520764CBA00CADFEB /* ViewController.swift */; };
 		2BDA6BA920764CBA00CADFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA6BA720764CBA00CADFEB /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BC7BC242077C4E000D96C65 /* TinderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderImageView.swift; sourceTree = "<group>"; };
 		2BDA6BA020764CBA00CADFEB /* StackViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDA6BA320764CBA00CADFEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDA6BA520764CBA00CADFEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +44,6 @@
 		2BDA6B9720764CBA00CADFEB = {
 			isa = PBXGroup;
 			children = (
-				2BDA6BB720764FEE00CADFEB /* Header.xib */,
 				2BDA6BA220764CBA00CADFEB /* StackViewExample */,
 				2BDA6BA120764CBA00CADFEB /* Products */,
 			);
@@ -59,6 +60,7 @@
 		2BDA6BA220764CBA00CADFEB /* StackViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				2BDA6BB720764FEE00CADFEB /* Header.xib */,
 				2BDA6BA320764CBA00CADFEB /* AppDelegate.swift */,
 				2BDA6BA520764CBA00CADFEB /* ViewController.swift */,
 				2BDA6BA720764CBA00CADFEB /* Main.storyboard */,
@@ -66,6 +68,7 @@
 				2BDA6BAC20764CBB00CADFEB /* LaunchScreen.storyboard */,
 				2BDA6BAF20764CBB00CADFEB /* Info.plist */,
 				2BDA6BB920765DDC00CADFEB /* ProfileController.swift */,
+				2BC7BC242077C4E000D96C65 /* TinderImageView.swift */,
 			);
 			path = StackViewExample;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC7BC252077C4E000D96C65 /* TinderImageView.swift in Sources */,
 				2BDA6BA620764CBA00CADFEB /* ViewController.swift in Sources */,
 				2BDA6BA420764CBA00CADFEB /* AppDelegate.swift in Sources */,
 				2BDA6BBA20765DDC00CADFEB /* ProfileController.swift in Sources */,

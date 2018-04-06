@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Vwr-ji-CoK">
+            <rect key="frame" x="0.0" y="0.0" width="629" height="814"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3hb-HI-pB9">
+                    <rect key="frame" x="427.5" y="36" width="185.5" height="588.5"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daenerys1" translatesAutoresizingMaskIntoConstraints="NO" id="Scu-Ca-Wiz" customClass="TinderImageView" customModule="StackViewExample" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="185.5" height="185.5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daenerys1" translatesAutoresizingMaskIntoConstraints="NO" id="KiI-cW-R9b" customClass="TinderImageView" customModule="StackViewExample" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="201.5" width="185.5" height="185.5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daenerys1" translatesAutoresizingMaskIntoConstraints="NO" id="8mh-2V-U6e" customClass="TinderImageView" customModule="StackViewExample" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="403" width="185.5" height="185.5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Scu-Ca-Wiz" firstAttribute="height" secondItem="3hb-HI-pB9" secondAttribute="width" id="6Ud-Ss-cUQ"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="vMU-rb-CYQ">
+                    <rect key="frame" x="16" y="439" width="395.5" height="185.5"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daenerys1" translatesAutoresizingMaskIntoConstraints="NO" id="Hz7-Ql-edB" customClass="TinderImageView" customModule="StackViewExample" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="190" height="185.5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daenerys1" translatesAutoresizingMaskIntoConstraints="NO" id="fav-q7-4M7" customClass="TinderImageView" customModule="StackViewExample" customModuleProvider="target">
+                            <rect key="frame" x="206" y="0.0" width="189.5" height="185.5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                    </subviews>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daenerys1" translatesAutoresizingMaskIntoConstraints="NO" id="oNe-7r-BJb" customClass="TinderImageView" customModule="StackViewExample" customModuleProvider="target">
+                    <rect key="frame" x="16" y="36" width="395.5" height="387"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="oNe-7r-BJb" firstAttribute="top" secondItem="Scu-Ca-Wiz" secondAttribute="top" id="4Gv-62-yba"/>
+                <constraint firstItem="vMU-rb-CYQ" firstAttribute="top" secondItem="oNe-7r-BJb" secondAttribute="bottom" constant="16" id="6Ya-dc-M8k"/>
+                <constraint firstItem="vMU-rb-CYQ" firstAttribute="top" secondItem="8mh-2V-U6e" secondAttribute="top" id="8Rq-FY-VBG"/>
+                <constraint firstItem="3hb-HI-pB9" firstAttribute="top" secondItem="dQD-og-mNP" secondAttribute="top" constant="16" id="Bn6-G0-aKw"/>
+                <constraint firstItem="3hb-HI-pB9" firstAttribute="leading" secondItem="vMU-rb-CYQ" secondAttribute="trailing" constant="16" id="HkK-ZB-bGe"/>
+                <constraint firstItem="oNe-7r-BJb" firstAttribute="leading" secondItem="dQD-og-mNP" secondAttribute="leading" constant="16" id="RLP-kf-YEX"/>
+                <constraint firstItem="3hb-HI-pB9" firstAttribute="width" secondItem="Vwr-ji-CoK" secondAttribute="width" multiplier="1/3" constant="-24" id="fGu-PA-fWu"/>
+                <constraint firstItem="vMU-rb-CYQ" firstAttribute="leading" secondItem="dQD-og-mNP" secondAttribute="leading" constant="16" id="l61-Rb-FcP"/>
+                <constraint firstItem="dQD-og-mNP" firstAttribute="trailing" secondItem="3hb-HI-pB9" secondAttribute="trailing" constant="16" id="naD-by-fc4"/>
+                <constraint firstItem="3hb-HI-pB9" firstAttribute="leading" secondItem="oNe-7r-BJb" secondAttribute="trailing" constant="16" id="s1f-T0-Rrs"/>
+                <constraint firstItem="vMU-rb-CYQ" firstAttribute="bottom" secondItem="8mh-2V-U6e" secondAttribute="bottom" id="y7f-fa-T54"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="dQD-og-mNP"/>
+            <point key="canvasLocation" x="-158.5" y="255"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="daenerys1" width="553" height="531"/>
+    </resources>
+</document>
